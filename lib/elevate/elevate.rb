@@ -9,7 +9,7 @@ module Elevate
     end
 
     def task_definitions
-      @task_definitions ||= {}
+      @@task_definitions ||= {}
     end
   end
 
